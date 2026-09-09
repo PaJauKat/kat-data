@@ -1,0 +1,83 @@
+[
+  {
+    "Item": "Infernal Cape",
+    "intPrice": 150,
+    "modifications": [
+      { "id": "weapon", "options": [
+        { "id": "bowfa", "label": "Bowfa (Bow of Faerdhinen)", "addGP": 30 },
+        { "id": "armadyl-crossbow", "label": "Armadyl crossbow", "addGP": 50 },
+        { "id": "rune-crossbow", "label": "Rune crossbow", "addGP": 80 }
+      ]},
+      { "id": "defence", "options": [
+        { "id": "zerk", "label": "30-69 defence", "addGP": 50 },
+        { "id": "pure", "label": "1-29 defence", "addGP": 100}
+      ] }
+    ]
+  },
+  {
+    "Item": "Fire Cape",
+    "intPrice": 15,
+    "modifications": [
+      { "id": "rigour", "label": "Rigour Prayer", "addGP": -2 },
+      { "id": "tbow", "label": "Twisted Bow", "addGP": -2 },
+      { "id": "ranged-level", "options": [
+        { "id": "0", "label": "75-89 ranged", "addGP": 15 },
+        { "id": "1", "label": "61-74 ranged", "addGP": 30 },
+        { "id": "2", "label": "50-60 ranged", "addGP": 50 }
+      ]},
+      { "id": "defence", "options": [
+        { "id": "zerk", "label": "30-69 defence", "addGP": 7 },
+        { "id": "pure", "label": "1-29 defence", "addGP": 12 }
+      ] }
+    ]
+  },
+  {
+    "Item": "Dizana's Quiver",
+    "intPrice": 120,
+    "modifications": [
+      { "id": "weapon", "options": [
+        { "id": "scythe", "label": "Scythe of Vitur", "addGP": 0 },
+        { "id": "fang", "label": "Osmuted fang", "addGP": 20 },
+        { "id": "abyssal-whip", "label": "Abyssal whip", "addGP": 70 }
+
+      ]},
+      { "id": "defence", "options": [
+        { "id": "zerk", "label": "30-69 defence", "addGP": 25 },
+        { "id": "pure", "label": "1-29 defence", "addGP": 50 }
+      ] },
+      { "id": "healing", "options": [
+        { "id": "blood-fury", "label": "Blood Fury", "addGP": 0 },
+        { "id": "saradomin-godsword", "label": "Saradomin Godsword", "addGP": 0 },
+        { "id": "blood-barrage", "label": "Blood barrage", "addGP": 30 },
+        { "id": "sara-brew", "label": "Just Saradomin brews", "addGP": 60 }
+      ]}
+    ]
+  },
+  {
+    "Item": "Blood Torva",
+    "intPrice": 200,
+    "modifications": [
+      { "id": "vardorvis", "options": [
+        { "id": "scythe", "label": "Scythe of Vitur", "addGP": 0 },
+        { "id": "abyssal-tent", "label": "Abyssal Tentacle", "addGP": 30 }
+      ]},
+      { "id": "duke", "options": [
+        { "id": "scythe", "label": "Scythe of Vitur", "addGP": 0 },
+        { "id": "emberlight", "label": "Emberlight", "addGP": 20 }
+      ]},
+      { "id": "leviathan", "options": [
+        { "id": "tbow", "label": "Twisted Bow", "addGP": 0 }
+      ]},
+      { "id": "whisperer", "options": [
+        { "id": "tumeken", "label": "Tumeken's Shadow", "addGP": 0 },
+        { "id": "eye", "label": "Eye of Ayak", "addGP": 20 },
+        { "id": "sang", "label": "Sanguinesti staff", "addGP": 20 },
+        { "id": "trident", "label": "Trident of the Swamp", "addGP": 50 }
+      ]}
+    ]
+  },
+  {
+    "Item": "Radiant Oathplate",
+    "intPrice": 200
+  }
+]
