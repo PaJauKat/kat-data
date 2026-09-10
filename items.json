@@ -2,30 +2,41 @@
   {
     "slug": "infernal-cape",
     "Item": "Infernal Cape",
-    "icon": "🔥",
-    "image": "/images/products/infernal-cape.png",
-    "tagline": "The ultimate Inferno completion cape",
-    "description": "Base price assumes you have the Twisted bow. Armour items are not important for the price just the weapons. It's important to have a blowpipe and a staff that can autocast Ancient Spells",
-    "requirements": [
-      "+70 defence",
-      "99 ranged",
-      "+94 magic (Ice barrage) may be less with Saturated Heart"
-    ],
     "intPrice": 150,
     "modifications": [
       {
         "id": "weapon",
         "options": [
-          { "id": "bowfa", "label": "Bowfa (Bow of Faerdhinen)", "addGP": 30 },
-          { "id": "armadyl-crossbow", "label": "Armadyl crossbow", "addGP": 50 },
-          { "id": "rune-crossbow", "label": "Rune crossbow", "addGP": 80 }
+          {
+            "id": "bowfa",
+            "label": "Bowfa (Bow of Faerdhinen)",
+            "addGP": 30
+          },
+          {
+            "id": "armadyl-crossbow",
+            "label": "Armadyl crossbow",
+            "addGP": 50
+          },
+          {
+            "id": "rune-crossbow",
+            "label": "Rune crossbow",
+            "addGP": 80
+          }
         ]
       },
       {
         "id": "defence",
         "options": [
-          { "id": "zerk", "label": "30-69 defence", "addGP": 50 },
-          { "id": "pure", "label": "1 defence", "addGP": 100 }
+          {
+            "id": "zerk",
+            "label": "30-69 defence",
+            "addGP": 50
+          },
+          {
+            "id": "pure",
+            "label": "1 defence",
+            "addGP": 100
+          }
         ]
       }
     ]
@@ -33,32 +44,51 @@
   {
     "slug": "fire-cape",
     "Item": "Fire Cape",
-    "icon": "🔥",
-    "image": "/images/products/fire-cape.webp",
-    "tagline": "The Inferno clear, done right",
-    "description": "We clear the Inferno on your account and secure the Fire Cape drop, including all prerequisite tasks. Clean run, delivered in game.",
-    "requirements": [
-      "90+ ranged",
-      "Blowpipe or Twisted Bow recommended",
-      "You must be online for the in-game trade delivery"
-    ],
     "intPrice": 15,
     "modifications": [
-      { "id": "rigour", "label": "Rigour Prayer", "addGP": -2 },
-      { "id": "tbow", "label": "Twisted Bow", "addGP": -2 },
+      {
+        "id": "rigour",
+        "label": "Rigour Prayer",
+        "addGP": -2
+      },
+      {
+        "id": "tbow",
+        "label": "Twisted Bow",
+        "addGP": -2
+      },
       {
         "id": "ranged-level",
         "options": [
-          { "id": "0", "label": "75-89 ranged", "addGP": 15 },
-          { "id": "1", "label": "61-74 ranged", "addGP": 30 },
-          { "id": "2", "label": "50-60 ranged", "addGP": 50 }
+          {
+            "id": "0",
+            "label": "75-89 ranged",
+            "addGP": 15
+          },
+          {
+            "id": "1",
+            "label": "61-74 ranged",
+            "addGP": 30
+          },
+          {
+            "id": "2",
+            "label": "50-60 ranged",
+            "addGP": 50
+          }
         ]
       },
       {
         "id": "defence",
         "options": [
-          { "id": "zerk", "label": "30-69 defence", "addGP": 7 },
-          { "id": "pure", "label": "1-29 defence", "addGP": 12 }
+          {
+            "id": "zerk",
+            "label": "30-69 defence",
+            "addGP": 7
+          },
+          {
+            "id": "pure",
+            "label": "1-29 defence",
+            "addGP": 12
+          }
         ]
       }
     ]
@@ -66,39 +96,66 @@
   {
     "slug": "quiver",
     "Item": "Dizana's Quiver",
-    "icon": "🏹",
-    "image": "/images/products/dizana-quiver.png",
-    "tagline": "Smooth ranged-focused service",
-    "description": "Complete the ranged gear requirement with a full Quiver delivery, including all prerequisite tasks so you can slot it in right away.",
-    "requirements": [
-      "+90 Strength",
-      "Healing source: Blood Fury, Saradomin Godsword, Blood barrage...",
-      "Slash weapon: Scythe of Vitur, Abyssal whip..."
-    ],
     "intPrice": 120,
     "modifications": [
       {
         "id": "weapon",
         "options": [
-          { "id": "scythe", "label": "Scythe of Vitur", "addGP": 0 },
-          { "id": "fang", "label": "Osmuted fang", "addGP": 20 },
-          { "id": "abyssal-whip", "label": "Abyssal whip", "addGP": 70 }
+          {
+            "id": "scythe",
+            "label": "Scythe of Vitur",
+            "addGP": 0
+          },
+          {
+            "id": "fang",
+            "label": "Osmuted fang",
+            "addGP": 20
+          },
+          {
+            "id": "abyssal-whip",
+            "label": "Abyssal whip",
+            "addGP": 70
+          }
         ]
       },
       {
         "id": "defence",
         "options": [
-          { "id": "zerk", "label": "30-69 defence", "addGP": 25 },
-          { "id": "pure", "label": "1-29 defence", "addGP": 50 }
+          {
+            "id": "zerk",
+            "label": "30-69 defence",
+            "addGP": 25
+          },
+          {
+            "id": "pure",
+            "label": "1-29 defence",
+            "addGP": 50
+          }
         ]
       },
       {
         "id": "healing",
         "options": [
-          { "id": "blood-fury", "label": "Blood Fury", "addGP": 0 },
-          { "id": "saradomin-godsword", "label": "Saradomin Godsword", "addGP": 0 },
-          { "id": "blood-barrage", "label": "Blood barrage", "addGP": 30 },
-          { "id": "sara-brew", "label": "Just Saradomin brews", "addGP": 60 }
+          {
+            "id": "blood-fury",
+            "label": "Blood Fury",
+            "addGP": 0
+          },
+          {
+            "id": "saradomin-godsword",
+            "label": "Saradomin Godsword",
+            "addGP": 0
+          },
+          {
+            "id": "blood-barrage",
+            "label": "Blood barrage",
+            "addGP": 30
+          },
+          {
+            "id": "sara-brew",
+            "label": "Just Saradomin brews",
+            "addGP": 60
+          }
         ]
       }
     ]
@@ -106,43 +163,71 @@
   {
     "slug": "blood-torva",
     "Item": "Blood Torva",
-    "icon": "🛡️",
-    "image": "/images/products/Sanguine_torva_armour_equipped_male.webp",
-    "tagline": "The heavyweight Vardorvis armour set",
-    "description": "Secure the full Blood Torva set with a complete, clean run. Includes all combat requirements and the drop itself, traded to you in game.",
-    "requirements": [
-      "Twisted Bow",
-      "Slash weapon: Scythe of Vitur, Abyssal whip..."
-    ],
     "intPrice": 200,
     "modifications": [
       {
         "id": "vardorvis",
         "options": [
-          { "id": "scythe", "label": "Scythe of Vitur", "addGP": 0 },
-          { "id": "abyssal-tent", "label": "Abyssal Tentacle", "addGP": 30 }
+          {
+            "id": "scythe",
+            "label": "Scythe of Vitur",
+            "addGP": 0
+          },
+          {
+            "id": "abyssal-tent",
+            "label": "Abyssal Tentacle",
+            "addGP": 30
+          }
         ]
       },
       {
         "id": "duke",
         "options": [
-          { "id": "scythe", "label": "Scythe of Vitur", "addGP": 0 },
-          { "id": "emberlight", "label": "Emberlight", "addGP": 20 }
+          {
+            "id": "scythe",
+            "label": "Scythe of Vitur",
+            "addGP": 0
+          },
+          {
+            "id": "emberlight",
+            "label": "Emberlight",
+            "addGP": 20
+          }
         ]
       },
       {
         "id": "leviathan",
         "options": [
-          { "id": "tbow", "label": "Twisted Bow", "addGP": 0 }
+          {
+            "id": "tbow",
+            "label": "Twisted Bow",
+            "addGP": 0
+          }
         ]
       },
       {
         "id": "whisperer",
         "options": [
-          { "id": "tumeken", "label": "Tumeken's Shadow", "addGP": 0 },
-          { "id": "eye", "label": "Eye of Ayak", "addGP": 20 },
-          { "id": "sang", "label": "Sanguinesti staff", "addGP": 20 },
-          { "id": "trident", "label": "Trident of the Swamp", "addGP": 50 }
+          {
+            "id": "tumeken",
+            "label": "Tumeken's Shadow",
+            "addGP": 0
+          },
+          {
+            "id": "eye",
+            "label": "Eye of Ayak",
+            "addGP": 20
+          },
+          {
+            "id": "sang",
+            "label": "Sanguinesti staff",
+            "addGP": 20
+          },
+          {
+            "id": "trident",
+            "label": "Trident of the Swamp",
+            "addGP": 50
+          }
         ]
       }
     ]
@@ -150,14 +235,6 @@
   {
     "slug": "radiant-oathplate",
     "Item": "Radiant Oathplate",
-    "icon": "✨",
-    "image": "/images/products/Radiant_oathplate_armour_equipped_male.webp",
-    "tagline": "Polished ToA radiant service",
-    "description": "Complete the Radiant Oathplate chain with clean boss clears and full delivery, including any tiering requirements tied to the drop.",
-    "requirements": [
-      "82 Magic",
-      "Purging staff"
-    ],
     "intPrice": 200
   }
 ]
